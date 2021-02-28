@@ -1,0 +1,30 @@
+$headers-font: 'Akaya Telivigala';
+$text-font: 'Oswald';
+
+h1 {
+    text-align: center;
+    font-family: $headers-font;
+}
+
+header {
+    background-color: greenyellow;
+    margin: 0;
+
+    h1 {
+        position: relative;
+        margin: 0;
+        padding: 10px;
+        color: green;
+        font-size: 30px;
+        flex-basis: 90%;
+    }
+
+    .menu-icon {
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        color: green;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
